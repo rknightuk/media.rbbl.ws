@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Secret Life of Pets"
-type: movie
+category: movie
 rate: 0
 ---
 

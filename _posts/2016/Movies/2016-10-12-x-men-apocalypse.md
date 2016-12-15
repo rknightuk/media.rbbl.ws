@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "X-Men: Apocalypse"
-type: movie
+category: movie
 rate: 1
 ---
 

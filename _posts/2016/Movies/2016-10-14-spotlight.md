@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spotlight"
-type: movie
+category: movie
 rate: 2
 ---
 

@@ -116,6 +116,10 @@ header {
 	font-weight: bold;
 }
 
+.archive-links {
+	text-align: center;
+}
+
 .archive-icon {
 	width: 20px;
     margin-bottom: -4px;

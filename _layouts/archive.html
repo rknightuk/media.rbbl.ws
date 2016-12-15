@@ -2,8 +2,22 @@
 
 {{ content }}
 
-<div class="blog-post-list">
-    {% for post in site.posts %}
+<nav class="archive-links">
+    {% if page.type == 'movie' %}movies{% else %}<a href="/archive/movies">movies</a> {% endif %} &bull;
+    {% if page.type == 'tv' %}tv{% else %}<a href="/archive/tv">tv</a> {% endif %} &bull;
+    {% if page.type == 'game' %}games{% else %}<a href="/archive/games">games</a> {% endif %} &bull;
+    {% if page.type == 'book' %}books{% else %}<a href="/archive/books">books</a> {% endif %} &bull;
+    {% if page.type == 'music' %}music{% else %}<a href="/archive/music">music</a> {% endif %}
+</nav>
+
+<div>
+    {% if page.type %} 
+        {% assign archivePosts = site.categories[page.type] %}
+    {% else %}
+        {% assign archivePosts = site.posts %}
+    {% endif %}
+
+    {% for post in archivePosts %}
 
         {% unless post.next %}
             <h2>{{ post.date | date: '%Y' }}</h2>
@@ -16,11 +30,13 @@
             {% endif %}
         {% endunless %}
 
-    <p>
-        <img src="/assets/img/icons/{{ post.type }}.png" class="archive-icon"> <span class="post--rating-{{ post.rate }}">&bull;</span> <span class="subtitle">
-            {{ post.date | date: "%d/%m" }}
-        </span> <a href="{{ post.url }}">{{ post.title }}</a>
-    </p>
+        
+            <p>
+                <img src="/assets/img/icons/{{ post.category }}.png" class="archive-icon"> <span class="post--rating-{{ post.rate }}">&bull;</span> <span class="subtitle">
+                    {{ post.date | date: "%d/%m" }}
+                </span> <a href="{{ post.url }}">{{ post.title }}</a>
+            </p>
+        
     {% endfor %}
 </div>
 

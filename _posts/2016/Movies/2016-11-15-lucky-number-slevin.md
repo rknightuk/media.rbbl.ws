@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Lucky Number Slevin"
-type: movie
+category: movie
 rate: 2
 ---
 

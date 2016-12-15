@@ -1,6 +1,6 @@
 ---
 layout: post
 title:  "American History X"
-type: movie
+category: movie
 rate: 2
 ---

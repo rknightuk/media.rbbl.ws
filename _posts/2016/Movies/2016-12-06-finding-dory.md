@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Finding Dory"
-type: movie
+category: movie
 rate: 1
 ---
 

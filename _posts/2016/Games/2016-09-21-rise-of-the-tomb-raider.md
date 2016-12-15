@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rise of the Tomb Raider [Xbox One]"
-type: game
+category: game
 rate: 2
 ---
 

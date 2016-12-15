@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hot Tub Time Machine 2"
-type: movie
+category: movie
 rate: 2
 ---
 

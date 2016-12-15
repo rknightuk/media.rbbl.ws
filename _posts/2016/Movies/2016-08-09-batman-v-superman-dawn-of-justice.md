@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Batman v Superman: Dawn of Justice"
-type: movie
+category: movie
 rate: 1
 ---
 

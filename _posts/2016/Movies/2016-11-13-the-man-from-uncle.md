@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Man from U.N.C.L.E."
-type: movie
+category: movie
 rate: 1
 ---
 

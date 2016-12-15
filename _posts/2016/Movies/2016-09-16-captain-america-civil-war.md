@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Captain America: Civil War"
-type: movie
+category: movie
 rate: 2
 ---
 

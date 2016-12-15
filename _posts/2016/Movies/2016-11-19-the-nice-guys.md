@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Nice Guys"
-type: movie
+category: movie
 rate: 2
 ---
 

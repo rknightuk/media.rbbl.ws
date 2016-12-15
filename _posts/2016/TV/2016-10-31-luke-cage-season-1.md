@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Luke Cage Season 1"
-type: tv
+category: tv
 rate: 2
 ---
 

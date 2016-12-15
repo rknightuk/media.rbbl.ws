@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Star Wars: The Force Awakens"
-type: movie
+category: movie
 rate: 2
 ---
 

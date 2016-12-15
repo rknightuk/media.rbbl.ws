@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ghostbusters"
-type: movie
+category: movie
 rate: 2
 ---
 

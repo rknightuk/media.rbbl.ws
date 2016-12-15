@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Now You See Me"
-type: movie
+category: movie
 rate: 2
 ---
 

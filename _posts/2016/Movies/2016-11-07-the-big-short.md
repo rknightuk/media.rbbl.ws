@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Big Short"
-type: movie
+category: movie
 rate: 2
 ---
 

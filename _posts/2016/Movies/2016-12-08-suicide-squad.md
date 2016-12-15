@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Suicide Squad"
-type: movie
+category: movie
 rate: 0
 ---
 

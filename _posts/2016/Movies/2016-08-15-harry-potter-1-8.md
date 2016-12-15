@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Harry Potter 1-8"
-type: movie
+category: movie
 rate: 2
 ---
 

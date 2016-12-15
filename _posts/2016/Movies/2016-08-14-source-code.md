@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Source Code"
-type: movie
+category: movie
 rate: 2
 ---
 

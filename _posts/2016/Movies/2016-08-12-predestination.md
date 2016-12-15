@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Predestination"
-type: movie
+category: movie
 rate: 2
 ---
 

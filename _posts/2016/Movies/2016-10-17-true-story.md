@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "True Story"
-type: movie
+category: movie
 rate: 0
 ---
 
