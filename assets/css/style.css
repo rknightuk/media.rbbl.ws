@@ -47,19 +47,6 @@ hr {
 	margin: 50px;
 }
 
-.header {
-	background: #F9BF3B;
-    padding: 5px 10px;
-    text-align: right;
-    margin-bottom: 25px;
-}
-
-.header a:link,
-.header a:active,
-.header a:visited {
-	color: black;
-}
-
 /**
  * Main content
  */
@@ -97,7 +84,18 @@ hr {
 	font-weight: normal;
 	margin-top: 0;
 	font-size: 14px;
-	text-transform: uppercase;
+}
+
+.post--rating-0 {
+	color: #EC644B;
+}
+
+.post--rating-1 {
+	color: #F4D03F;
+}
+
+.post--rating-2 {
+	color: #2ECC71;
 }
 
 .post {
@@ -107,4 +105,13 @@ hr {
 .pagination {
 	padding: 20px;
 	text-align: center;
-}	
+}
+
+.subtitle {
+	font-weight: bold;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 20px;
+}

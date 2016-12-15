@@ -10,15 +10,11 @@
         </div>
         <div class="post--content">
             <div>
-                <h1>{{ post.title }}</h1>
+                <h1>{{ post.title }} <span class="post--rating-{{ post.rate }}">&bull;</span></h1>
             </div>
-            <h2>{{ post.date | date: "%a %d %B, %Y" }}</h2>
+            <h2><a href="{{ post.url }}">{{ post.date | date: "%a %d %B, %Y" }}</a></h2>
 
-            {% assign contentLength = post.content | number_of_words %}
-            
-            {% if contentLength > 0 %}
-                {{ post.content }}
-            {% endif %}
+            {{ post.content }}
         </div>
     </article>
 

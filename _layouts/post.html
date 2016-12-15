@@ -6,15 +6,11 @@
     </div>
     <div class="post--content">
         <div>
-            <h1>{{ page.title }}</h1>
+            <h1>{{ page.title }} <span class="post--rating-{{ page.rate }}">&bull;</span></h1>
         </div>
         <h2>{{ page.date | date: "%a %d %B, %Y" }}</h2>
 
-        {% assign contentLength = page.content | number_of_words %}
-        
-        {% if contentLength > 0 %}
-            {{ page.content }}
-        {% endif %}
+        {{ page.content }}
     </div>
 </article>
 
