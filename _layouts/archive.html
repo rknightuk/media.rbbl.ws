@@ -17,7 +17,7 @@
         {% endunless %}
 
     <p>
-        <span class="subtitle post--rating-{{ post.rate }}">
+        <img src="/assets/img/icons/{{ post.type }}.png" class="archive-icon"> <span class="post--rating-{{ post.rate }}">&bull;</span> <span class="subtitle">
             {{ post.date | date: "%d/%m" }}
         </span> <a href="{{ post.url }}">{{ post.title }}</a>
     </p>

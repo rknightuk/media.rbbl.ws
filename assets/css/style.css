@@ -115,3 +115,8 @@ footer {
 	text-align: center;
 	margin-bottom: 20px;
 }
+
+.archive-icon {
+	width: 20px;
+    margin-bottom: -4px;
+}
