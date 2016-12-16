@@ -19,7 +19,11 @@
 	<body>
 
 		<header>
-			<a href="/archive">archive</a> | 
+			{% if page.path contains 'archive' %}
+				<a href="/">home</a> | 	
+			{% else %}
+				<a href="/archive">archive</a> | 
+			{% endif %}
 			<a href="https://twitter.com/rmlewisuk">@rmlewisuk</a> |
 			<a href="https://github.com/rmlewisuk/media.rbbl.ws">source</a>
 		</header>
