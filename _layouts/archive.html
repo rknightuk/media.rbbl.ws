@@ -17,25 +17,30 @@
         {% assign archivePosts = site.posts %}
     {% endif %}
 
+    {% assign datePrinted = false %}
+    {% assign currentYear = 1000 %}
+
+    {% assign postCount = archivePosts | size %}
+
+    {% if postCount == 0 %}
+        <p>No posts yet</p>
+    {% endif %}
+
     {% for post in archivePosts %}
 
-        {% unless post.next %}
-            <h2>{{ post.date | date: '%Y' }}</h2>
-        {% else %}
-            {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-            {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-            
-            {% if year != nyear %}
-                <h2>{{ post.date | date: '%Y' }}</h2>
-            {% endif %}
+        {% assign postYear = post.date | date: "%Y" %}
+
+        {% unless postYear == currentYear %}
+            <h2>{{ postYear }}</h2>
         {% endunless %}
 
-        
-            <p>
-                <img src="/assets/img/icons/{{ post.category }}.png" class="archive-icon"> <span class="post--rating-{{ post.rate }}">&bull;</span> <span class="subtitle">
-                    {{ post.date | date: "%d/%m" }}
-                </span> <a href="{{ post.url }}">{{ post.title }}</a>
-            </p>
+        {% assign currentYear = postYear %}
+
+        <p>
+            <img src="/assets/img/icons/{{ post.category }}.png" class="archive-icon"> <span class="post--rating-{{ post.rate }}">&bull;</span> <span class="subtitle">
+                {{ post.date | date: "%d/%m" }}
+            </span> <a href="{{ post.url }}">{{ post.title }}</a>
+        </p>
         
     {% endfor %}
 </div>
