@@ -3,7 +3,7 @@ description: "List of movies, TV shows, books and games I've consumed"
 
 # Build settings
 permalink: pretty
-paginate: 10
+paginate: 50
 markdown: kramdown
 theme: minima
 gems:
