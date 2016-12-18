@@ -1,0 +1,6 @@
+---
+layout: post
+title: "Back to the Future"
+category: movie
+rate: 2
+---
