@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Trials Fusion"
+title:  "Trials Fusion [Xbox One]"
 category: game
 rate: 1
 ---
