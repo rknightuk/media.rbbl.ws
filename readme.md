@@ -1,4 +1,5 @@
 ### Media jekyll blog
+this is a test
 (I need a better name for this)
 
 A [Jekyll](https://jekyllrb.com/) site for me to keep a list of movies, tv, games, books, and music I've consumed. I thought about making a full-on web app for it but to be honest that seemed like a lot of hassle for what is basically a list.
