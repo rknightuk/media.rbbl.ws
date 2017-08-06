@@ -2,7 +2,7 @@
 layout: post
 title: "Batman Returns"
 category: movie
-rate: 0
+rate: 1
 ---
 
 These are not good.
