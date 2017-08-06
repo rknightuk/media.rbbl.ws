@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Batman Returns"
+title: "Batman Forever"
 category: movie
 rate: 1
 ---
