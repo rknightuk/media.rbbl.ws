@@ -5,4 +5,6 @@ category: game
 rate: 2
 ---
 
-There is so much to do after the main story. I'm still annoyed about required motion controls, but overall I loved this game.
+![Mario looking at the earth](https://rmlewisuk.s3.amazonaws.com/mario-moon.jpg)
+
+There is so much to do after the main story. I'm still annoyed about the required motion controls, but overall I loved this game.
