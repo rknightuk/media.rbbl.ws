@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Horizon: Zero Dawn [PS4]"
+title:  "Horizon: Zero Dawn"
 category: game
 rate: 2
+platform: PS4
 ---
 
 ![Horizon Screenshot](http://rmlewisuk.s3.amazonaws.com/Horizon-Zero-Dawn-_20170311162519.png)

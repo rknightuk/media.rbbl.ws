@@ -3,6 +3,7 @@ layout: post
 title:  "Super Mario Odyssey (Main Story)"
 category: game
 rate: 2
+platform: Switch
 ---
 
 ![Mario Odyssey title screen](https://rmlewisuk.s3.amazonaws.com/mario-titles.jpg)

@@ -3,6 +3,7 @@ layout: post
 title:  "Super Mario Odyssey (Post-Game)"
 category: game
 rate: 2
+platform: Switch
 ---
 
 ![Mario looking at the earth](https://rmlewisuk.s3.amazonaws.com/mario-moon.jpg)

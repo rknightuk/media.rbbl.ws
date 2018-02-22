@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "House of Cards Season 5"
+title: "House of Cards"
 category: tv
 rate: 2
+season: 5
 ---

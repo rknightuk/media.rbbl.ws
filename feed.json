@@ -1,0 +1,20 @@
+---
+layout: none
+---
+
+{
+    "items": [
+{% for post in site.posts %}
+        {
+            "title": {{ post.title | smartify | jsonify }},
+            "content": {{ post.content | jsonify }},
+            "path": "{{ post.id }}",
+            "category": "{{ post.category }}",
+            "rating": "{{ post.rate}}",
+            "season": "{{ post.season}}",
+            "platform": "{{ post.platform}}",
+            "date_published": "{{ post.date }}"
+        }{% unless forloop.last == true %},{% endunless %}
+{% endfor %}
+    ]
+}

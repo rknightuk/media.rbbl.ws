@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Blindspot Season 1-3"
+title: "Blindspot"
 category: tv
 rate: 2
+season: "1-3"
 ---

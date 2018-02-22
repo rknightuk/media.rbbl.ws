@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Westworld Season 1"
+title:  "Westworld"
 category: tv
 rate: 2
+season: 1
 ---
 
 This is basically a perfect show.
