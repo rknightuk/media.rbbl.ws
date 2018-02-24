@@ -13,6 +13,8 @@ layout: none
             "rating": "{{ post.rate}}",
             "season": "{{ post.season}}",
             "platform": "{{ post.platform}}",
+            "link": "{{ post.link}}",
+            "year": "{{ post.year }}",
             "date_published": "{{ post.date }}"
         }{% unless forloop.last == true %},{% endunless %}
 {% endfor %}
