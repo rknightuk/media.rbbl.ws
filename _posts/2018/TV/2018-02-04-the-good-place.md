@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "The Good Place (Season 2 E08-12)"
+title: "The Good Place"
 category: tv
 rate: 2
+season: "S2E08-12"
 ---

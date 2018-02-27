@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Batman Returns"
+title: "Batman Forever"
 category: movie
 rate: 1
+year: 1995
 ---
-
-These are not good.

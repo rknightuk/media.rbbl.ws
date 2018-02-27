@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Beauty and the Beast (2017)"
+title: "Beauty and the Beast"
 category: movie
 rate: 2
+year: 2017
 ---
 
