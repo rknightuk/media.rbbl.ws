@@ -3,6 +3,7 @@ layout: post
 title: "Ghostbusters"
 category: movie
 rate: 2
+year: 2016
 ---
 
-"I need Kate McKinnon in everything."
+I need Kate McKinnon in everything.
