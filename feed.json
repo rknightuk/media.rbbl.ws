@@ -13,6 +13,7 @@ layout: none
             "category": "{{ post.category }}",
             "rating": "{{ post.rate}}",
             "season": "{{ post.season}}",
+            "episode": "{{ post.episode}}",
             "platform": "{{ post.platform}}",
             "link": "{{ post.link}}",
             "year": "{{ post.year }}",
